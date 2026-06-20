@@ -122,6 +122,17 @@ form input{
 	margin-bottom:25px;
 }
 
+@media (max-width: 768px){
+	.hero-texto{
+		width: 100%!important;
+		left: 0;
+	}
+
+	.hero-texto h1{
+		font-size: 36px!important;
+		line-height: 1;
+	}
+}
 .hero-texto-men .btn-light{
 	padding:7px 18px;
 	font-size:14px;
